@@ -43,6 +43,8 @@ if (watchDogPort){
 
 const net = require('net');
 
+const port = process.env.PORT || 3000;
+
 function setupWatchDog(){
     var client = new net.Socket();
     client.connect(watchDogPort, 'localhost');
