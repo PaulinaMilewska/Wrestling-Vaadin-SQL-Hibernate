@@ -1,6 +1,7 @@
 {
   "name": "no-name",
   "license": "UNLICENSED",
+  "main": "app.js",
   "dependencies": {
     "@polymer/polymer": "3.2.0",
     "@webcomponents/webcomponentsjs": "^2.2.10",
@@ -19,6 +20,9 @@
   "engines": {
     "node": ">= 6.9.4",
     "npm": ">= 4.4.0"
+  },
+  "scripts": {
+    "start": "node app.js"
   },
   "vaadinAppPackageHash": "2cce8cc294eabc8fbf9e20d657f71d02d9ff7f1850a1df8235bffffa7655485a"
 }
